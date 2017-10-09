@@ -2,12 +2,11 @@
 
 TAG1=v3.6.173.0.5
 TAG2=v3.6
-TAG3=v3.6.173.0.3
+TAG3=v3.6.173.0.5
 
 docker save -o /home/sdhar/repository/images/ose3-images.tar \
  registry.access.redhat.com/openshift3/ose-haproxy-router \
 registry.access.redhat.com/openshift3/ose-deployer \
-registry.access.redhat.com/openshift3/ose-recycler \
 registry.access.redhat.com/openshift3/ose-sti-builder \
 registry.access.redhat.com/openshift3/ose-docker-builder \
 registry.access.redhat.com/openshift3/ose-pod \
