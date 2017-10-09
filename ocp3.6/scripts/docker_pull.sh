@@ -2,7 +2,7 @@
 
 TAG1=v3.6.173.0.5
 TAG2=v3.6
-TAG3=v3.6.173.0.3
+TAG3=v3.6.173.0.5
 
 docker pull registry.access.redhat.com/openshift3/ose-haproxy-router:${TAG1}
 docker pull registry.access.redhat.com/openshift3/ose-deployer:${TAG1}
