@@ -4,7 +4,7 @@ TAG1=v3.6.173.0.5
 TAG2=v3.6
 TAG3=v3.6.173.0.5
 
-docker save -o /home/sdhar/repository/images/ose3-images.tar \
+docker save -o /home/jdoe/repository/images/ose3-images.tar \
  registry.access.redhat.com/openshift3/ose-haproxy-router \
 registry.access.redhat.com/openshift3/ose-deployer \
 registry.access.redhat.com/openshift3/ose-sti-builder \
@@ -13,7 +13,7 @@ registry.access.redhat.com/openshift3/ose-pod \
 docker.io/openshift/hello-openshift:latest \
 registry.access.redhat.com/openshift3/ose-docker-registry 
 
-docker save -o /home/sdhar/repository/images/ose3-logging-metrics-images.tar \
+docker save -o /home/jdoe/repository/images/ose3-logging-metrics-images.tar \
  registry.access.redhat.com/openshift3/logging-deployer \
 registry.access.redhat.com/openshift3/logging-elasticsearch \
 registry.access.redhat.com/openshift3/logging-kibana \
@@ -26,13 +26,13 @@ registry.access.redhat.com/openshift3/metrics-cassandra \
 registry.access.redhat.com/openshift3/metrics-heapster \
 registry.access.redhat.com/openshift3/registry-console 
 
-docker save -o /home/sdhar/repository/images/ose3-service-catalog-images.tar \
+docker save -o /home/jdoe/repository/images/ose3-service-catalog-images.tar \
  registry.access.redhat.com/openshift3/ose-service-catalog:${TAG3} \
 registry.access.redhat.com/openshift3/ose-ansible-service-broker:${TAG3} \
 registry.access.redhat.com/openshift3/mediawiki-apb:${TAG3} \
 registry.access.redhat.com/openshift3/postgresql-apb:${TAG3}
 
-docker save -o /home/sdhar/repository/images/ose3-builder-images.tar \
+docker save -o /home/jdoe/repository/images/ose3-builder-images.tar \
 registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat7-openshift:latest \
 registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat7-openshift:1.1 \
 registry.access.redhat.com/redhat-openjdk-18/openjdk18-openshift:latest \
@@ -75,3 +75,7 @@ registry.access.redhat.com/rhscl/ruby-24-rhel7:latest \
 registry.access.redhat.com/rhscl/ruby-24-rhel7:2.4 \
 registry.access.redhat.com/rhscl/ror-42-rhel7:latest \
 registry.access.redhat.com/rhscl/ror-42-rhel7:4.2
+
+docker save -o /home/jdoe/repository/images/ose3-cns35-images.tar \
+registry.access.redhat.com/rhgs3/rhgs-server-rhel7:3.2.0-7 \
+registry.access.redhat.com/rhgs3/rhgs-volmanager-rhel7:3.2.0-11
