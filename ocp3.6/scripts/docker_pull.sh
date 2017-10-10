@@ -73,5 +73,5 @@ docker pull registry.access.redhat.com/rhscl/ruby-24-rhel7:2.4
 docker pull registry.access.redhat.com/rhscl/ror-42-rhel7:latest
 docker pull registry.access.redhat.com/rhscl/ror-42-rhel7:4.2
 
-docker upll registry.access.redhat.com/rhgs3/rhgs-server-rhel7:3.2.0-7
-docker upll registry.access.redhat.com/rhgs3/rhgs-volmanager-rhel7:3.2.0-11
+docker pull registry.access.redhat.com/rhgs3/rhgs-server-rhel7:3.2.0-7
+docker pull registry.access.redhat.com/rhgs3/rhgs-volmanager-rhel7:3.2.0-11
