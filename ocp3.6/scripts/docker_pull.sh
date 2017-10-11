@@ -26,8 +26,8 @@ docker pull registry.access.redhat.com/openshift3/registry-console:${TAG2}
 
 docker pull registry.access.redhat.com/openshift3/ose-service-catalog:${TAG3}
 docker pull registry.access.redhat.com/openshift3/ose-ansible-service-broker:${TAG3}
-docker pull registry.access.redhat.com/openshift3/mediawiki-apb:${TAG3}
-docker pull registry.access.redhat.com/openshift3/postgresql-apb:${TAG3}
+docker pull registry.access.redhat.com/openshift3/mediawiki-apb:v3.6.173.0.5-7
+docker pull registry.access.redhat.com/openshift3/postgresql-apb:v3.6.173.0.5-7
 
 docker pull registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat7-openshift:latest
 docker pull registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat7-openshift:1.1
