@@ -4,23 +4,34 @@ TAG1=v3.6.173.0.21
 TAG2=v3.6
 TAG3=v3.6.173.0.21
 
-docker pull registry.access.redhat.com/openshift3/ose-haproxy-router:${TAG1}
+docker pull registry.access.redhat.com/openshift3/ose-ansible:${TAG1}
+docker pull registry.access.redhat.com/openshift3/ose-cluster-capacity:${TAG1}
 docker pull registry.access.redhat.com/openshift3/ose-deployer:${TAG1}
-docker pull registry.access.redhat.com/openshift3/ose-sti-builder:${TAG1}
 docker pull registry.access.redhat.com/openshift3/ose-docker-builder:${TAG1}
-docker pull registry.access.redhat.com/openshift3/ose-pod:${TAG1}
-docker pull docker.io/openshift/hello-openshift:latest
 docker pull registry.access.redhat.com/openshift3/ose-docker-registry:${TAG1}
+docker pull registry.access.redhat.com/openshift3/ose-egress-http-proxy:${TAG1}
+docker pull registry.access.redhat.com/openshift3/ose-egress-router:${TAG1}
+docker pull registry.access.redhat.com/openshift3/ose-f5-router:${TAG1}
+docker pull registry.access.redhat.com/openshift3/ose-federation:${TAG1}
+docker pull registry.access.redhat.com/openshift3/ose-keepalived-ipfailover:${TAG1}
+docker pull registry.access.redhat.com/openshift3/ose-pod:${TAG1}
+docker pull registry.access.redhat.com/openshift3/ose-sti-builder:${TAG1}
+docker pull registry.access.redhat.com/openshift3/ose:${TAG1}
+docker pull registry.access.redhat.com/openshift3/container-engine:${TAG1}
+docker pull registry.access.redhat.com/openshift3/efs-provisioner:${TAG1}
+docker pull registry.access.redhat.com/openshift3/node:${TAG1}
+docker pull registry.access.redhat.com/openshift3/openvswitch:${TAG1}
 
+docker pull registry.access.redhat.com/openshift3/logging-auth-proxy:${TAG2}
+docker pull registry.access.redhat.com/openshift3/logging-curator:${TAG2}
 docker pull registry.access.redhat.com/openshift3/logging-deployer:${TAG2}
 docker pull registry.access.redhat.com/openshift3/logging-elasticsearch:${TAG2}
-docker pull registry.access.redhat.com/openshift3/logging-kibana:${TAG2}
 docker pull registry.access.redhat.com/openshift3/logging-fluentd:${TAG2}
-docker pull registry.access.redhat.com/openshift3/logging-curator:${TAG2}
-docker pull registry.access.redhat.com/openshift3/logging-auth-proxy:${TAG2}
+docker pull registry.access.redhat.com/openshift3/logging-kibana:${TAG2}
+docker pull registry.access.redhat.com/openshift3/metrics-cassandra:${TAG2}
 docker pull registry.access.redhat.com/openshift3/metrics-deployer:${TAG2}
 docker pull registry.access.redhat.com/openshift3/metrics-hawkular-metrics:${TAG2}
-docker pull registry.access.redhat.com/openshift3/metrics-cassandra:${TAG2}
+docker pull registry.access.redhat.com/openshift3/metrics-hawkular-openshift-agent:${TAG2}
 docker pull registry.access.redhat.com/openshift3/metrics-heapster:${TAG2}
 docker pull registry.access.redhat.com/openshift3/registry-console:${TAG2}
 
