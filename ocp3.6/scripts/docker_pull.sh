@@ -75,3 +75,8 @@ docker pull registry.access.redhat.com/rhscl/ror-42-rhel7:4.2
 
 docker pull registry.access.redhat.com/rhgs3/rhgs-server-rhel7:3.2.0-7
 docker pull registry.access.redhat.com/rhgs3/rhgs-volmanager-rhel7:3.2.0-11
+
+docker pull docker.io/openshiftdemos/gogs:0.11.29
+docker pull docker.io/openshiftdemos/nexus:2.13.0-01
+docker pull docker.io/openshiftdemos/sonarqube:6.5
+docker pull docker.io/openshiftdemos/oc:latest
