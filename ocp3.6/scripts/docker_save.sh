@@ -5,7 +5,7 @@ TAG2=v3.6
 TAG3=v3.6.173.0.21
 
 docker save -o /home/jdoe/repository/images/ose3-images.tar \
- registry.access.redhat.com/openshift3/ose-haproxy-router \
+registry.access.redhat.com/openshift3/ose-haproxy-router \
 registry.access.redhat.com/openshift3/ose-deployer \
 registry.access.redhat.com/openshift3/ose-sti-builder \
 registry.access.redhat.com/openshift3/ose-docker-builder \
@@ -14,7 +14,7 @@ docker.io/openshift/hello-openshift:latest \
 registry.access.redhat.com/openshift3/ose-docker-registry 
 
 docker save -o /home/jdoe/repository/images/ose3-logging-metrics-images.tar \
- registry.access.redhat.com/openshift3/logging-deployer \
+registry.access.redhat.com/openshift3/logging-deployer \
 registry.access.redhat.com/openshift3/logging-elasticsearch \
 registry.access.redhat.com/openshift3/logging-kibana \
 registry.access.redhat.com/openshift3/logging-fluentd \
@@ -27,7 +27,7 @@ registry.access.redhat.com/openshift3/metrics-heapster \
 registry.access.redhat.com/openshift3/registry-console 
 
 docker save -o /home/jdoe/repository/images/ose3-service-catalog-images.tar \
- registry.access.redhat.com/openshift3/ose-service-catalog:${TAG3} \
+registry.access.redhat.com/openshift3/ose-service-catalog:${TAG3} \
 registry.access.redhat.com/openshift3/ose-ansible-service-broker:${TAG3} \
 registry.access.redhat.com/openshift3/mediawiki-apb:${TAG3} \
 registry.access.redhat.com/openshift3/postgresql-apb:${TAG3}
