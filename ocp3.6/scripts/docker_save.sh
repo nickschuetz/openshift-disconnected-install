@@ -1,8 +1,8 @@
 #!/bin/sh
 
-TAG1=v3.6.173.0.5
+TAG1=v3.6.173.0.21
 TAG2=v3.6
-TAG3=v3.6.173.0.5
+TAG3=v3.6.173.0.21
 
 docker save -o /home/jdoe/repository/images/ose3-images.tar \
  registry.access.redhat.com/openshift3/ose-haproxy-router \
