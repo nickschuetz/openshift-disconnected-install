@@ -36,7 +36,7 @@ registry.access.redhat.com/openshift3/metrics-deployer:${TAG2} \
 registry.access.redhat.com/openshift3/metrics-hawkular-metrics:${TAG2} \
 registry.access.redhat.com/openshift3/metrics-hawkular-openshift-agent:${TAG2} \
 registry.access.redhat.com/openshift3/metrics-heapster:${TAG2} \
-registry.access.redhat.com/openshift3/registry-console:${TAG2} \
+registry.access.redhat.com/openshift3/registry-console:${TAG2}
 
 docker save -o /home/jdoe/repository/images/ose3-service-catalog-images.tar \
 registry.access.redhat.com/openshift3/ose-service-catalog:${TAG3} \
