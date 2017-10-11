@@ -6,7 +6,6 @@ TAG3=v3.6.173.0.21
 
 docker pull registry.access.redhat.com/openshift3/ose-haproxy-router:${TAG1}
 docker pull registry.access.redhat.com/openshift3/ose-deployer:${TAG1}
-docker pull registry.access.redhat.com/openshift3/ose-recycler:${TAG1}
 docker pull registry.access.redhat.com/openshift3/ose-sti-builder:${TAG1}
 docker pull registry.access.redhat.com/openshift3/ose-docker-builder:${TAG1}
 docker pull registry.access.redhat.com/openshift3/ose-pod:${TAG1}
