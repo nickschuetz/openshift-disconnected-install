@@ -6,37 +6,37 @@ TAG3=v3.6.173.0.21
 
 
 docker save -o /home/jdoe/repository/images/ose3-images.tar \
-registry.access.redhat.com/openshift3/ose-ansible:${TAG1} \
-registry.access.redhat.com/openshift3/ose-cluster-capacity:${TAG1} \
-registry.access.redhat.com/openshift3/ose-deployer:${TAG1} \
-registry.access.redhat.com/openshift3/ose-docker-builder:${TAG1} \
-registry.access.redhat.com/openshift3/ose-docker-registry:${TAG1} \
-registry.access.redhat.com/openshift3/ose-egress-http-proxy:${TAG1} \
-registry.access.redhat.com/openshift3/ose-egress-router:${TAG1} \
-registry.access.redhat.com/openshift3/ose-f5-router:${TAG1} \
-registry.access.redhat.com/openshift3/ose-federation:${TAG1} \
-registry.access.redhat.com/openshift3/ose-keepalived-ipfailover:${TAG1} \
-registry.access.redhat.com/openshift3/ose-pod:${TAG1} \
-registry.access.redhat.com/openshift3/ose-sti-builder:${TAG1} \
-registry.access.redhat.com/openshift3/ose:${TAG1} \
-registry.access.redhat.com/openshift3/container-engine:${TAG1} \
-registry.access.redhat.com/openshift3/efs-provisioner:${TAG2} \
-registry.access.redhat.com/openshift3/node:${TAG1} \
-registry.access.redhat.com/openshift3/openvswitch:${TAG1}
+registry.access.redhat.com/openshift3/ose-ansible \
+registry.access.redhat.com/openshift3/ose-cluster-capacity \
+registry.access.redhat.com/openshift3/ose-deployer \
+registry.access.redhat.com/openshift3/ose-docker-builder \
+registry.access.redhat.com/openshift3/ose-docker-registry \
+registry.access.redhat.com/openshift3/ose-egress-http-proxy \
+registry.access.redhat.com/openshift3/ose-egress-router \
+registry.access.redhat.com/openshift3/ose-f5-router \
+registry.access.redhat.com/openshift3/ose-federation \
+registry.access.redhat.com/openshift3/ose-keepalived-ipfailover \
+registry.access.redhat.com/openshift3/ose-pod \
+registry.access.redhat.com/openshift3/ose-sti-builder \
+registry.access.redhat.com/openshift3/ose \
+registry.access.redhat.com/openshift3/container-engine \
+registry.access.redhat.com/openshift3/efs-provisioner \
+registry.access.redhat.com/openshift3/node \
+registry.access.redhat.com/openshift3/openvswitch
 
 docker save -o /home/jdoe/repository/images/ose3-logging-metrics-images.tar \
-registry.access.redhat.com/openshift3/logging-auth-proxy:${TAG2} \
-registry.access.redhat.com/openshift3/logging-curator:${TAG2} \
-registry.access.redhat.com/openshift3/logging-deployer:${TAG2} \
-registry.access.redhat.com/openshift3/logging-elasticsearch:${TAG2} \
-registry.access.redhat.com/openshift3/logging-fluentd:${TAG2} \
-registry.access.redhat.com/openshift3/logging-kibana:${TAG2} \
-registry.access.redhat.com/openshift3/metrics-cassandra:${TAG2} \
-registry.access.redhat.com/openshift3/metrics-deployer:${TAG2} \
-registry.access.redhat.com/openshift3/metrics-hawkular-metrics:${TAG2} \
-registry.access.redhat.com/openshift3/metrics-hawkular-openshift-agent:${TAG2} \
-registry.access.redhat.com/openshift3/metrics-heapster:${TAG2} \
-registry.access.redhat.com/openshift3/registry-console:${TAG2}
+registry.access.redhat.com/openshift3/logging-auth-proxy \
+registry.access.redhat.com/openshift3/logging-curator \
+registry.access.redhat.com/openshift3/logging-deployer \
+registry.access.redhat.com/openshift3/logging-elasticsearch \
+registry.access.redhat.com/openshift3/logging-fluentd \
+registry.access.redhat.com/openshift3/logging-kibana \
+registry.access.redhat.com/openshift3/metrics-cassandra \
+registry.access.redhat.com/openshift3/metrics-deployer \
+registry.access.redhat.com/openshift3/metrics-hawkular-metrics \
+registry.access.redhat.com/openshift3/metrics-hawkular-openshift-agent \
+registry.access.redhat.com/openshift3/metrics-heapster \
+registry.access.redhat.com/openshift3/registry-console
 
 docker save -o /home/jdoe/repository/images/ose3-service-catalog-images.tar \
 registry.access.redhat.com/openshift3/ose-service-catalog:${TAG3} \
