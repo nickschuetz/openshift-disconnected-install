@@ -18,7 +18,7 @@ docker pull registry.access.redhat.com/openshift3/ose-pod:${TAG1}
 docker pull registry.access.redhat.com/openshift3/ose-sti-builder:${TAG1}
 docker pull registry.access.redhat.com/openshift3/ose:${TAG1}
 docker pull registry.access.redhat.com/openshift3/container-engine:${TAG1}
-docker pull registry.access.redhat.com/openshift3/efs-provisioner:${TAG1}
+docker pull registry.access.redhat.com/openshift3/efs-provisioner:${TAG2}
 docker pull registry.access.redhat.com/openshift3/node:${TAG1}
 docker pull registry.access.redhat.com/openshift3/openvswitch:${TAG1}
 
