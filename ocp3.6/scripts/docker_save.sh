@@ -89,8 +89,8 @@ registry.access.redhat.com/rhscl/ror-42-rhel7:latest \
 registry.access.redhat.com/rhscl/ror-42-rhel7:4.2
 
 docker save -o /home/jdoe/repository/images/ose3-cns35-images.tar \
-registry.access.redhat.com/rhgs3/rhgs-server-rhel7:3.2.0-7 \
-registry.access.redhat.com/rhgs3/rhgs-volmanager-rhel7:3.2.0-11
+registry.access.redhat.com/rhgs3/rhgs-server-rhel7:latest \
+registry.access.redhat.com/rhgs3/rhgs-volmanager-rhel7:latest
 
 docker save -o /home/jdoe/repository/images/ose3-cicddemo-images.tar \
 docker.io/openshiftdemos/gogs:0.11.29 \
